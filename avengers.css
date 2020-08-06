@@ -1,0 +1,145 @@
+
+.jumbotron{
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+.jumbotron{
+    background: url(https://cdn.statically.io/img/wallpaperaccess.com/full/84987.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    color: white;
+}
+.card-text{
+    color: black;
+}
+.card-img-top{
+    height: 350px;
+}
+.navbar.scrolled{
+    background: teal;
+    transition: background 1s;
+}
+#mainNavbar .navbar-brand{
+    color: crimson;
+    }
+    #mainNavbar{
+        font-size: 1rem;
+    font-weight: 100;
+    }
+    #mainNavbar .nav-link{
+        color: white;
+    }
+
+    #mainNavbar .nav-link:hover{
+        color:#EA1C2C;
+    }
+    #shopping{
+        padding-left: 950px;
+    }
+    #headinggroup span{
+        color:#EA1C2C ;
+    }
+    #headinggroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+        color: white;
+    }
+    @media (max-width: 1200px){
+        #headinggroup h1{
+            font-weight: 100;
+            font-size: 2rem;
+    }
+    }
+    h2{
+        color: white ;
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+    .blurb p{
+        color: brown;
+        font-weight: 100;
+        font-size: 1.125rem;
+    }
+    .content{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+.image-fluid{
+    height: 700px;
+}
+#cartel{
+    padding-left: 50px;
+    border: 2px solid crimson;
+  border-radius: 50px 20px
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    padding-top: 50PX;
+}
+.header hr {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+.header hr:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+#content{
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 3px 6px black;
+}
+body{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    height: 1050px;
+}
+h1 {
+color: white;
+font-size: 60px;
+}
+h3{
+    color: white
+}
+img {
+
+
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+  }
+  body{
+    background-color: black;
+ }
+ h5{
+     font-weight: bold;
+ }
+ #decker{
+     margin-left: 300px;
+ }
+  #carouselExampleSlidesOnly{
+     border-radius:2% ;
+ }
+ #decker{
+    border: 2px solid red;
+    border-radius: 50px 20px
+ }
+ #class{
+    border: 2px solid crimson;
+    border-radius: 50px 20px
+ }
+ #calonel{
+    border: 2px solid turquoise;
+    border-radius: 50px 20px
+ }
